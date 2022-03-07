@@ -5,7 +5,7 @@ const api = axios.create({
     headers: {
         'x-proxy-location': 'BD',
         'x-rapidapi-host': 'google-search3.p.rapidapi.com',
-        'x-rapidapi-key': 'd0dc2c53f2msh9957bdcc2b8bd98p15f607jsna5a3744deea3',
+        'x-rapidapi-key': import.meta.env.VITE_API_KEY,
     },
 });
 
