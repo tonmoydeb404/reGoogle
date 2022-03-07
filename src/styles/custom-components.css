@@ -1,1 +1,5 @@
-/* your custom components will be here */
+@import "./components/Navbar.css";
+@import "./components/Searchbox.css";
+@import "./components/SearchFilter.css";
+@import "./components/Hero.css";
+@import "./components/Result.css";

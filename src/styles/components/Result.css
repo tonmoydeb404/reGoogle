@@ -1,0 +1,51 @@
+.result_breadcrumb {
+  @apply text-xs md:text-sm dark:text-slate-100 text-gray-600;
+}
+
+.result_title {
+  @apply text-base md:text-lg lg:text-xl font-medium text-blue-600 mb-2;
+}
+
+.result_description {
+  @apply text-sm dark:text-slate-200 text-gray-500 break-words line-clamp-2;
+}
+
+.result_news {
+  @apply py-3 px-5 border rounded-md border-slate-900/20 dark:border-slate-900/60 shadow-sm;
+}
+
+.result_source {
+  @apply text-sm dark:text-gray-200 dark:hover:text-blue-400 duration-200 flex items-center gap-x-1 mb-2;
+}
+
+.result_time {
+  @apply text-xs dark:text-gray-300;
+}
+
+.result_video {
+  @apply w-full;
+}
+
+.result_text {
+  @apply w-full overflow-hidden;
+}
+
+.result_video-wrapper {
+  @apply w-full aspect-video;
+}
+
+.result_video-container {
+  @apply flex flex-col sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 w-full;
+}
+
+.result_text-container {
+  @apply flex flex-col md:grid gap-5 md:grid-cols-2 2xl:grid-cols-3;
+}
+
+.result_images-container {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-3 w-full;
+}
+
+.skeleton_component {
+  @apply bg-gray-300 dark:bg-slate-700;
+}

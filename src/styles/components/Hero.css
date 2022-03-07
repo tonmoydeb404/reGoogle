@@ -1,0 +1,19 @@
+.hero {
+  @apply flex items-center w-full min-h-screen justify-center flex-col;
+}
+
+.hero_logo {
+  @apply text-4xl font-bold mb-10 flex items-center gap-x-2;
+}
+
+.hero .logo_image {
+  @apply w-10 bg-slate-900 py-1 rounded;
+}
+
+.hero .searchbox {
+  @apply w-4/5 sm:w-auto;
+}
+
+.hero .searchbox_field {
+  @apply text-base py-4 pl-6;
+}

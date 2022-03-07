@@ -1,1 +1,16 @@
 /* your custom base will be here */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-white text-slate-900 dark:bg-slate-800 dark:text-slate-50;
+}

@@ -1,0 +1,11 @@
+.searchfilter {
+  @apply flex items-center gap-3 sm:gap-4 text-xs sm:text-sm;
+}
+
+.searchfilter_item {
+  @apply flex items-center gap-x-1.5 px-1 pb-2 sm:pb-3 border-b border-transparent;
+}
+
+.searchfilter_item.active {
+  @apply text-blue-600 border-blue-600;
+}
