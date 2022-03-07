@@ -3,7 +3,7 @@
 }
 
 .result_title {
-  @apply text-base md:text-lg lg:text-xl font-medium text-blue-600 mb-2;
+  @apply text-base md:text-lg lg:text-xl font-medium text-blue-600 mb-2 hover:text-blue-700 duration-200;
 }
 
 .result_description {
